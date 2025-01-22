@@ -1,0 +1,28 @@
+@use 'variables';
+
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img {
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+/* CUSTOM FOTO */
+.objectfit {
+    display: flex;
+    justify-content: flex-start;
+
+    &>img {
+        width: 11rem;
+        height: 11rem;
+        object-fit: cover;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: variables.$fondo1;
+        border: 3px solid variables.$objectfit_border;
+    }
+}

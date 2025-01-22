@@ -1,0 +1,46 @@
+/* LOGO */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo__img {
+  max-width: 50%;
+  margin-bottom: 20px;
+}
+
+/* CUSTOM FOTO */
+.objectfit {
+  display: flex;
+  justify-content: flex-start;
+}
+.objectfit > img {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #F9ECDF;
+  border: 3px solid red;
+}
+
+/* Aplica una plantilla de modelo de caja natural a todos los elementos, permitiendo que los mismos se combinen */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#wrapper {
+  margin-left: 2.5%;
+  width: 95%;
+  border-radius: 5%;
+  background-color: #F9ECDF;
+}
+
+/*# sourceMappingURL=styles.css.map */
