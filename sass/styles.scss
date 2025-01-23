@@ -1,9 +1,20 @@
 @use 'header';
 @use 'variables';
+@use 'redes';
 
 /* Aplica una plantilla de modelo de caja natural a todos los elementos, permitiendo que los mismos se combinen */
 html {
     box-sizing: border-box;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+body {
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 *,
@@ -11,7 +22,8 @@ html {
 *:after {
     box-sizing: inherit;
 }
-#wrapper{
+
+#wrapper {
     margin-left: 2.5%;
     width: 95%;
     border-radius: 5%;

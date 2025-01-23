@@ -10,13 +10,14 @@
     max-width: 50%;
     margin-bottom: 20px;
 }
+
 /* CUSTOM FOTO */
 .objectfit {
     display: flex;
     justify-content: flex-start;
 
     &>img {
-        width: 11rem;
+        width: 9rem;
         height: 11rem;
         object-fit: cover;
         -moz-border-radius: 50%;
@@ -25,4 +26,36 @@
         background-color: variables.$fondo1;
         border: 3px solid variables.$objectfit_border;
     }
+}
+.nombre_puesto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title2 {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -23%;
+}
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.titulo--directorio {
+    color: white;
+}
+
+.titulo--directorio:hover {
+    font-size: 25px;
+}
+@media only screen and (max-width: 720px) {
+    .objectfit{
+        justify-content: center;
+    }
+    
 }
