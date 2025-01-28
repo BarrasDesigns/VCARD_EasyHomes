@@ -21,7 +21,7 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #F9ECDF;
+  background-color: #ffffff;
   border: 3px solid red;
 }
 
@@ -117,7 +117,7 @@ body {
   margin-left: 2.5%;
   width: 95%;
   border-radius: 5%;
-  background-color: #F9ECDF;
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */
