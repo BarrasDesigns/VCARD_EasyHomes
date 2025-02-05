@@ -69,10 +69,10 @@
   margin-bottom: 30px;
 }
 
-.redes__contEnlace {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+.contEnlaces {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: space-evenly !important;
 }
 
 .redes--modal {
