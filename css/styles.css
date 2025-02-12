@@ -95,6 +95,105 @@
   transform: scale(1.8) !important;
 }
 
+.cont-galeria {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: 400px;
+  grid-gap: 1rem;
+}
+
+.galeria__img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.galeria__item {
+  position: relative;
+}
+
+.galeria__titulo {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+}
+
+.galeria__item:nth-child(1) {
+  grid-column-start: span 1;
+}
+
+.galeria__item:nth-child(2) {
+  grid-column-start: span 1;
+}
+
+.galeria__item:nth-child(3) {
+  grid-column-start: span 1;
+}
+
+.galeria__item:nth-child(4) {
+  grid-column-start: span 1;
+}
+
+.galeria__item:nth-child(5) {
+  grid-column-start: span 1;
+}
+
+.galeria__item:nth-child(6) {
+  grid-column-start: span 1;
+}
+
+@media (min-width: 468px) {
+  .cont-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 20rem;
+  }
+  .galeria__item:nth-child(1) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(2) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(3) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(4) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(5) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(6) {
+    grid-column-start: span 1;
+  }
+}
+@media (min-width: 768px) {
+  .cont-galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 20rem;
+  }
+  .galeria__item:nth-child(1) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(2) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(3) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(4) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(5) {
+    grid-column-start: span 1;
+  }
+  .galeria__item:nth-child(6) {
+    grid-column-start: span 1;
+  }
+}
 /* Aplica una plantilla de modelo de caja natural a todos los elementos, permitiendo que los mismos se combinen */
 html {
   box-sizing: border-box;
